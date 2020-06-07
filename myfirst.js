@@ -17,9 +17,9 @@ http.createServer(function(req, res){
             name: 'kevin',
             age: '19'
         }
-        res.end(jsonobj)
+        res.end(JSON.stringify(jsonobj));
     }
     else{
         res.write('invalid url');res.end()
     }
-}).listen(2080)
+}).listen(3000)
