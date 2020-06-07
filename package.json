@@ -1,0 +1,13 @@
+{
+    "name": "node-server",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {      
+    },
+    "scripts": {
+      "dev": "node app.js",
+      "start": "node app.js",
+      "predeploy": "gcloud init",
+      "deploy": "node run predeploy; gcloud app deploy"
+    }
+  }
