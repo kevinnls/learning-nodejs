@@ -1,3 +1,3 @@
-const helloworld = require('./helloworld.js');
+const helloworld = require('./greeter.js');
 
 helloworld();
